@@ -9,7 +9,7 @@ public class AlbumTest {
 
     @Test
     public void testIsEquivalent() {
-        Album persisted = new Album("Radiohead", "OK Computer", 1997, 8);
+        Album persisted = new org.superbiz.moviefun.albums.Album("Radiohead", "OK Computer", 1997, 8);
         persisted.setId(10);
 
         Album sameFromCsv = new Album("Radiohead", "OK Computer", 1997, 9);

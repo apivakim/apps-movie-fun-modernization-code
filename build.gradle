@@ -5,6 +5,7 @@ buildscript {
         slf4jVersion = "1.7.25"
         projectVersion = "1.0"
         hibernateVersion = "5.0.11.Final"
+        mysqlVersion = "5.1.6"
     }
 
     repositories {
